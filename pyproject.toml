@@ -23,7 +23,7 @@ python-dateutil = "^2.8.2"
 requests = "^2.27.1"
 Rx = "^3.2.0"
 rxpy-backpressure = "^1.0.0"
-solana = "^0.21.0"
+solana = "^0.25.0"
 websocket-client = "^1.2.1"
 zstandard = "^0.17.0"
 

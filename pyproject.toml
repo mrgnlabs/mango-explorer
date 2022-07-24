@@ -26,6 +26,7 @@ rxpy-backpressure = "^1.0.0"
 solana = "^0.25.0"
 websocket-client = "^1.2.1"
 zstandard = "^0.17.0"
+base58 = "^2.1.1"
 
 [tool.poetry.dev-dependencies]
 black = "^22.1.0"

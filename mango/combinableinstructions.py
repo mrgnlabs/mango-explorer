@@ -24,8 +24,8 @@ from solana.rpc.commitment import Commitment, Finalized
 from solana.keypair import Keypair
 from solana.publickey import PublicKey
 from solana.transaction import Transaction, TransactionInstruction
-from solana.utils import shortvec_encoding as shortvec
 
+from .shortvec import encode_length
 from .constants import SOL_DECIMAL_DIVISOR
 from .context import Context
 from .instructionreporter import InstructionReporter
@@ -194,7 +194,7 @@ class CombinableInstructions:
         # * + (number of signers * 64 bytes)
         #
         def shortvec_length(value: int) -> int:
-            return len(shortvec.encode_length(value))
+            return len(encode_length(value))
 
         program_ids = {
             instruction.program_id.to_base58() for instruction in instructions

@@ -136,7 +136,9 @@
           "mintKey": "7i5KKsX2weiTkry7jA4ZwSuXGhs5eJBEjY8vVxR4pfRx",
           "decimals": 9,
           "rootKey": "HdFSXT8HSooTByieyKhuujBsvHkXR9zA4ZFmiToQhqEg",
-          "nodeKeys": ["BsyDMxu87YHUJXYHundMGp5YmpD2J3xm62TdaQyryp8f"]
+          "nodeKeys": [
+            "BsyDMxu87YHUJXYHundMGp5YmpD2J3xm62TdaQyryp8f"
+          ]
         }
       ],
       "oracles": [
@@ -568,8 +570,7 @@
           "publicKey": "38xoQ4oeJCBrcVvca2cGk7iV1dAfrmTR1kmhSCJQ8Jto"
         }
       ],
-      "perpMarkets": [
-      ],
+      "perpMarkets": [],
       "spotMarkets": [
         {
           "name": "MNGO/USDC",
@@ -754,10 +755,6 @@
           "publicKey": "8oGTURNmSQkrBS1AQ5NjB2p8qY34UVmMA9ojrw8vnHus"
         },
         {
-          "symbol": "FTT",
-          "publicKey": "6vivTRs5ZPeeXbjo7dfburfaYDWoXjBtdtuYgQRuGfu"
-        },
-        {
           "symbol": "AVAX",
           "publicKey": "6npJ7pCBQ1YkaF7wEyu5sfDNN1aHXnvhxh1z9GySKCEs"
         },
@@ -814,17 +811,6 @@
           "bidsKey": "5ugnXufA13HVgY6P9QLkFiSR6jy6XUv96WLbDV2Sf5i5",
           "asksKey": "45MdNs8jpedfHLaHvL7nyfhHSwHXzTYzPQvR2FAnXG1p",
           "eventsKey": "5v5fz2cCSy2VvrgVf5Vu7PF23RiZjv6BL36bgg48bA1c"
-        },
-        {
-          "name": "FTT-PERP",
-          "publicKey": "8fKNzMe22bZ6H9TP8KpyM8B6b6DhZQyNmodChvQRbV8P",
-          "baseSymbol": "FTT",
-          "baseDecimals": 6,
-          "quoteDecimals": 6,
-          "marketIndex": 8,
-          "bidsKey": "78fRmLeyvMQ96GwJuusxN5Zn2QKbYh752GoAGc2qVE6q",
-          "asksKey": "9GTHBjPNUBBWuqhYinxwqdesW8amzFBCAVS96waKkE5L",
-          "eventsKey": "7rswj7FVZcMYUKxcTLndZhWBmuVNc2GuxqjuXU8KcPWv"
         },
         {
           "name": "AVAX-PERP",
